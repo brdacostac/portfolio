@@ -12,7 +12,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-        <div className="xs:flex-col flex-row flex">
+        <div className="xs:flex-row flex-col flex gap-10">
           <img className="w-44 h-44 rounded-full mt-10"
             src={Avatar} alt="ProfilePic">
           </img>
