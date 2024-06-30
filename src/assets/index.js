@@ -27,10 +27,8 @@ import android from "./tech/android.png";
 import angular from "./tech/angular.png";
 import vuejs from "./tech/vuejs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import cnfpt from "./company/cnfpt.png";
+import beys from "./company/beys.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,10 +56,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  cnfpt,
+  beys,
   carrent,
   jobit,
   tripguide,

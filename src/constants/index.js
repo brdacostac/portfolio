@@ -16,8 +16,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
+    cnfpt,
+    beys,
     carrent,
     jobit,
     tripguide,
@@ -125,22 +125,23 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Le CNFPT",
-      icon: meta,
+      icon: cnfpt,
       iconBg: "#E6DEDD",
       date: "September 2023 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-
+        "Internal application 'Intra-Union': Adding features to optimize internships and regional communities in the AURA region.",
+        "Techs: Vue.js, JavaScript, MongoDB, Node.js, Git et Docker",
       ],
     },
     {
       title: "Software Developer",
       company_name: "BeYs Sofware",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: beys,
+      iconBg: "#E6DEDD",
       date: "April 2023 - June 2023",
       points: [
-        "Application interne 'Soyouz', Implémentation de nouvelles fonctionnalités dans le programme interne, incluant gestion des portfolios.",
+        "Internal application 'Soyouz': Implementation of new features in the internal program, including portfolio management.",
+        "Techs: Java, Angular, SpringBoot, Node.js, MongoDB, Git et Docker",
       ],
     },
   ];
