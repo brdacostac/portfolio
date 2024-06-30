@@ -84,10 +84,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -114,10 +110,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
