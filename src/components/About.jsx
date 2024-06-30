@@ -20,9 +20,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a junior software developer with experience in Java and C#, and expertise in Node.js. 
-        I hold a Bachelor's degree in Technology. I'm a quick learner and collaborate closely with clients to 
-        create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        Je suis un développeur full stack junior avec de l'expérience en Java et C#, et une expertise en Node.js. Je suis titulaire d'un Bachelor universitaire de technologie. 
+        J'apprends rapidement et je collabore étroitement avec les clients pour créer des solutions efficaces, évolutives et conviviales
+        qui résolvent des problèmes réels. Travaillons ensemble pour donner vie à vos idées !
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-center gap-20'>
