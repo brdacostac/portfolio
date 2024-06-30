@@ -34,6 +34,12 @@ import starnative from "./starnative.png";
 import devgarden from "./devgarden.png";
 import pokeblazor from "./pokeblazor.png";
 
+import loubroda from "./testimonials/loubroda.jpg";
+import nicolasfranco from "./testimonials/nicolasfranco.jpg";
+import ramikhedair from "./testimonials/ramikhedair.jpg";
+import noanrandon from "./testimonials/noanrandon.jpg";
+
+
 export {
   logo,
   backend,
@@ -67,4 +73,9 @@ export {
   android,
   angular,
   vuejs,
+
+  loubroda,
+  nicolasfranco,
+  ramikhedair,
+  noanrandon,
 };

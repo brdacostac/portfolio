@@ -22,6 +22,10 @@ import {
     pokeblazor,
     devgarden,
     threejs,
+    loubroda,
+    nicolasfranco,
+    ramikhedair,
+    noanrandon,
   } from "../assets";
   
   export const navLinks = [
@@ -149,33 +153,41 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Bruno est une personne sérieuse et disciplinée avec qui j'ai eu le plaisir de collaborer sur plusieurs projets. Il se distingue par sa capacité à proposer constamment des solutions  et à être une véritable force de proposition. Bruno sait également écouter et accepter les suggestions des autres, ce qui en fait une personne avec qui il est très facile de travailler. Son esprit collaboratif et son engagement font de lui un atout précieux dans toute équipe.",
+      name: "Noan Randon",
+      designation: "Software Engineer Student",
+      company: "ISIMA",
+      image: noanrandon,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Je connais Bruno depuis sept ans. Il a toujours été quelqu'un sur qui l'on peut compter. Durant ses années d'études, il a su surmonter ses difficultés avec brio. Nous avons travaillé ensemble sur plusieurs projets et Bruno a toujours démontré une grande capacité à travailler en équipe. Il sait motiver les autres pour obtenir un produit de haute qualité. Sa détermination et son esprit collaboratif sont des atouts précieux.",
+      name: "Rami Khedair",
+      designation: "Software Engineer Student",
+      company: "INSA Lyon",
+      image: ramikhedair,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "J'ai travaillé avec Bruno sur de nombreux projets pendant mon BUT. Bruno est extrêmement perfectionniste et n'est jamais satisfait de résultats médiocres. Avoir Bruno dans un groupe était toujours une assurance que le produit final serait le meilleur possible, tant en apparence qu'en performance. Son engagement envers l'excellence fait de lui un collaborateur précieux.",
+      name: "Nicolas Franco",
+      designation: "Software Developer",
+      company: "CGI",
+      image: nicolasfranco,
+    },
+    {
+      testimonial:
+        "Je connais Bruno depuis plusieurs années, et je peux dire sans hésitation qu'il est un développeur de qualité. Toujours sérieux et rigoureux dans son travail, Bruno fait preuve d'un grande calme face aux défis. Son approche méthodique et sa détermination assurent la qualité et la fiabilité de chaque projet sur lequel il travaille. En plus de ses compétences techniques, Bruno est toujours prêt à aider ses collègues, partageant généreusement son expertise et son temps.",
+      name: "Lou Broda",
+      designation: "Software Engineer Student",
+      company: "ISIMA",
+      image: loubroda,
     },
   ];
   
   const projects = [
     {
-      name: "Dev Garden",
+      name: "DevGarden",
       description:
         "Creation of DevGarden, an innovative application centralizing Git repositories (GitLab, GitHub, Gitea) into a single interface. Used Blender for 3D modeling of repositories into playful 3D trees. Developed skills in repository management, interactive UI, and agile methods.",
       tags: [

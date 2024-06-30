@@ -32,7 +32,7 @@ const Hero = () => {
 }
 
 const StyledButton = ({ title, onClick }) => (
-  <button className=' green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-5'
+  <button className=' green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-10'
     onClick={onClick}>
       <div
         options={{
