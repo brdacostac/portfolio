@@ -28,20 +28,13 @@ const Hero = () => {
 
 const StyledButton = () => (
   <button className='green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-10'>
-    <a href={import.meta.env.BASE_URL+"CV_Bruno.pdf"} target="_blank" download={import.meta.env.BASE_URL+"CV_Bruno.pdf"} rel="noopener noreferrer">
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className='bg-tertiary rounded-[20px] py-2 px-12 min-h-[50px] flex justify-evenly items-center flex-col'
-        >
-          <h3 className='text-white text-[15px] font-bold text-center'>
-              Télécharger CV
-          </h3>
-        </div>
-    </a>
+    <div className='bg-tertiary rounded-[20px] py-2 px-12 min-h-[50px] flex justify-evenly items-center flex-col'>
+          <a href={import.meta.env.BASE_URL+"CV_Bruno.pdf"} target="_blank" download={import.meta.env.BASE_URL+"CV_Bruno.pdf"} >   
+            <h3 className='text-white text-[15px] font-bold text-center'>
+                Télécharger CV
+            </h3>
+          </a>
+      </div>
   </button>
 );
 
