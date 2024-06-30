@@ -30,9 +30,9 @@ import vuejs from "./tech/vuejs.png";
 import cnfpt from "./company/cnfpt.png";
 import beys from "./company/beys.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import starnative from "./starnative.png";
+import devgarden from "./devgarden.png";
+import pokeblazor from "./pokeblazor.png";
 
 export {
   logo,
@@ -58,9 +58,9 @@ export {
   threejs,
   cnfpt,
   beys,
-  carrent,
-  jobit,
-  tripguide,
+  starnative,
+  devgarden,
+  pokeblazor,
   java,
   csharp,
   swift,

@@ -18,9 +18,9 @@ import {
     docker,
     cnfpt,
     beys,
-    carrent,
-    jobit,
-    tripguide,
+    starnative,
+    pokeblazor,
+    devgarden,
     threejs,
   } from "../assets";
   
@@ -175,67 +175,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dev Garden",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Creation of DevGarden, an innovative application centralizing Git repositories (GitLab, GitHub, Gitea) into a single interface. Used Blender for 3D modeling of repositories into playful 3D trees. Developed skills in repository management, interactive UI, and agile methods.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Csharp",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: devgarden,
+      source_code_link: "https://github.com/brdacostac/DevGarden",
     },
     {
-      name: "Job IT",
+      name: "Star-Native",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This mobile application allows users via an API to view Star Wars characters and view detailed descriptions of each character. It also offers the ability to save characters to a favorites list for later viewing. Additionally, our app features dark and light modes and supports both French and English languages.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: starnative,
+      source_code_link: "https://github.com/brdacostac/Star-Native",
     },
     {
-      name: "Trip Guide",
+      name: "PokéBlazor",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "PokeBlazor is a university project developed using the Blazor framework to create a web application that allows users to play Pokémon, build their team, and engage in Pokémon battles, all while fetching data from the Pokémon API.",
       tags: [
         {
-          name: "nextjs",
+          name: "blazor",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "csharp",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pokeblazor,
+      source_code_link: "https://github.com/brdacostac/Blazor-Pokemon",
     },
   ];
   
