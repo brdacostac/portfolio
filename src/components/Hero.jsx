@@ -27,7 +27,7 @@ const Hero = () => {
 }
 
 const StyledButton = () => (
-  <div className='green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-10'>
+  <button className='green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-10'>
     <a href={import.meta.env.BASE_URL+"CV_Bruno.pdf"} target="_blank" download={import.meta.env.BASE_URL+"CV_Bruno.pdf"} rel="noopener noreferrer">
         <div
           options={{
@@ -42,7 +42,7 @@ const StyledButton = () => (
           </h3>
         </div>
     </a>
-  </div>
+  </button>
 );
 
 export default Hero;
