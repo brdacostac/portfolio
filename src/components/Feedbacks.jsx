@@ -27,14 +27,14 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} at {company}
+            {designation} à {company}
           </p>
         </div>
         
         <img
           src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
+          alt={`avis_de-${name}`}
+          className='w-16 h-16 rounded-full object-cover'
         />
       </div>
     </div>
@@ -48,11 +48,11 @@ const Feedbacks = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>Avis de collaborateurs</p>
+          <h2 className={styles.sectionHeadText}>Témoignages.</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap justify-center items-center gap-7`}>
+      <div className={`mt-20 pb-14 ${styles.paddingX} flex flex-wrap justify-center items-center gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

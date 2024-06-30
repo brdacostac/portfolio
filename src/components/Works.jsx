@@ -71,8 +71,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Mon travail</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +80,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Les projets suivants illustrent mes compétences et mon expérience à travers des exemples concrets de mon travail.
+          Certains de ces projets ont été réalisés en collaboration avec d'autres contributeurs, dont vous pouvez trouver les détails sur GitHub.
+          Chaque projet est brièvement décrit avec des liens vers les dépôts de code. Ils reflètent ma capacité à résoudre des problèmes complexes,
+          à travailler avec différentes technologies et à gérer efficacement des projets.
         </motion.p>
       </div>
 
@@ -97,4 +96,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");

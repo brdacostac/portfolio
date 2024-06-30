@@ -147,7 +147,7 @@ const testimonials = [
     testimonial:
       "Bruno est une personne sérieuse et disciplinée avec qui j'ai eu le plaisir de collaborer sur plusieurs projets. Il se distingue par sa capacité à proposer constamment des solutions  et à être une véritable force de proposition. Bruno sait également écouter et accepter les suggestions des autres, ce qui en fait une personne avec qui il est très facile de travailler. Son esprit collaboratif et son engagement font de lui un atout précieux dans toute équipe.",
     name: "Noan Randon",
-    designation: "Étudiant en ingénierie logicielle",
+    designation: "Étudiant",
     company: "ISIMA",
     image: noanrandon,
   },
@@ -155,7 +155,7 @@ const testimonials = [
     testimonial:
       "Je connais Bruno depuis sept ans. Il a toujours été quelqu'un sur qui l'on peut compter. Durant ses années d'études, il a su surmonter ses difficultés avec brio. Nous avons travaillé ensemble sur plusieurs projets et Bruno a toujours démontré une grande capacité à travailler en équipe. Il sait motiver les autres pour obtenir un produit de haute qualité. Sa détermination et son esprit collaboratif sont des atouts précieux.",
     name: "Rami Khedair",
-    designation: "Étudiant en ingénierie logicielle",
+    designation: "Étudiant",
     company: "INSA Lyon",
     image: ramikhedair,
   },
@@ -163,7 +163,7 @@ const testimonials = [
     testimonial:
       "J'ai travaillé avec Bruno sur de nombreux projets pendant mon BUT. Bruno est extrêmement perfectionniste et n'est jamais satisfait de résultats médiocres. Avoir Bruno dans un groupe était toujours une assurance que le produit final serait le meilleur possible, tant en apparence qu'en performance. Son engagement envers l'excellence fait de lui un collaborateur précieux.",
     name: "Nicolas Franco",
-    designation: "Développeur logiciel",
+    designation: "Développeur Full Stack",
     company: "CGI",
     image: nicolasfranco,
   },
@@ -171,7 +171,7 @@ const testimonials = [
     testimonial:
       "Je connais Bruno depuis plusieurs années, et je peux dire sans hésitation qu'il est un développeur de qualité. Toujours sérieux et rigoureux dans son travail, Bruno fait preuve d'un grande calme face aux défis. Son approche méthodique et sa détermination assurent la qualité et la fiabilité de chaque projet sur lequel il travaille. En plus de ses compétences techniques, Bruno est toujours prêt à aider ses collègues, partageant généreusement son expertise et son temps.",
     name: "Lou Broda",
-    designation: "Étudiant en ingénierie logicielle",
+    designation: "Étudiant",
     company: "ISIMA",
     image: loubroda,
   },
@@ -202,7 +202,7 @@ const projects = [
   {
     name: "Star-Native",
     description:
-      "Cette application mobile permet aux utilisateurs via une API de visualiser les personnages de Star Wars et de consulter des descriptions détaillées de chaque personnage. Elle offre également la possibilité de sauvegarder des personnages dans une liste de favoris pour une consultation ultérieure. De plus, notre application propose des modes sombre et clair et prend en charge les langues française et anglaise.",
+      "Cette application mobile permet aux utilisateurs via une API de visualiser les personnages de Star Wars et de consulter des descriptions détaillées de chaque personnage. Elle offre également la possibilité de sauvegarder des personnages dans une liste de favoris pour une consultation ultérieure.",
     tags: [
       {
         name: "react native",

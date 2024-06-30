@@ -18,10 +18,10 @@ const Hero = () => {
           </img>
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className='text-[#915EFF]'>Bruno</span>
+              Bruno <span className='text-[#915EFF]'>Cunha</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              Software Developer
+              Développeur Full Stack
             </p>
             <StyledButton title='Download CV'/>
           </div>

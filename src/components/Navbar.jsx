@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { github, menu, close, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,14 +42,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-      
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Bruno Cunha &nbsp;
-          </p>
+            <p className='text-white text-[18px] mt-1 font-bold cursor-pointer flex '>
+              Bruno Cunha &nbsp;
+            </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-8'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,6 +59,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <div className='list-none hidden sm:flex flex-row gap-4 justify-center items-center'>
+            <a href="https://www.linkedin.com/in/bruno-da-costa-cunha/" target="_blank" rel="noopener noreferrer">
+              <img className="w-6 h-6" src={linkedin} alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/brdacostac" target="_blank" rel="noopener noreferrer">
+              <img className="w-8 h-8" src={github} alt="GitHub" />
+            </a>
+          </div>
         </ul>
         
         { /* Mobile Version for toggle and menu bar */}
