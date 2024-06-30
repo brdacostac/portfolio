@@ -1,14 +1,15 @@
 import {
     mobile,
-    backend,
-    creator,
+    java,
+    csharp,
+    angular,
+    vuejs,
+    android,
+    swift,
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -17,8 +18,6 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -57,14 +56,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -73,28 +64,48 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "React",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Angular",
+      icon: angular,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Vue JS",
+      icon: vuejs,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Swift",
+      icon: swift,
+    },
+    {
+      name: "Android",
+      icon: android,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "git",
