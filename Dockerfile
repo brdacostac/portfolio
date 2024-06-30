@@ -1,4 +1,3 @@
-#FROM node:latest AS build
 FROM public.ecr.aws/docker/library/node:lts-slim AS build
 WORKDIR /portfolio
 
