@@ -65,7 +65,7 @@ npm run dev
 
 ### 🌐 Lien vers le portfolio
 
-Vous pouvez visiter mon portfolio en ligne en suivant [ce lien]([https://votre-lien-portfolio.com](https://codefirst.iut.uca.fr/containers/brunoda_costa_cunha-portfolio)).
+Vous pouvez visiter mon portfolio en ligne en suivant [ce lien]([https://codefirst.iut.uca.fr/containers/brunoda_costa_cunha-portfolio]).
 
 ### 👨‍💻 Auteur
 
