@@ -11,25 +11,32 @@ Bienvenue sur le dépôt de mon portfolio personnel ! Ce portfolio met en avant 
 
 ### 📂 Sections du portfolio
 
-#### 1. À propos
+
+#### 1. Accueil
+
+La section "À propos" donne un aperçu de mon parcours et de mes compétences.
+
+![Accueil](./screenshots/home.png)
+
+#### 2. À propos
 
 La section "À propos" donne un aperçu de mon parcours et de mes compétences.
 
 ![À propos](./screenshots/about.png)
 
-#### 2. 💼 Expérience Professionnelle
+#### 3. 💼 Expérience Professionnelle
 
 Cette section présente mes expériences professionnelles avec des descriptions détaillées de chaque poste.
 
 ![Expérience Professionnelle](./screenshots/experience.png)
 
-#### 3. 🛠️ Projets
+#### 4. 🛠️ Projets
 
 La section "Projets" présente les différents projets sur lesquels j'ai travaillé, avec des descriptions et des liens vers les dépôts GitHub.
 
 ![Projets](./screenshots/projects.png)
 
-#### 4. 📞 Contact
+#### 5. 📞 Contact
 
 Cette section permet aux visiteurs de me contacter via un formulaire intégré.
 
@@ -53,7 +60,7 @@ npm install
 3. Lancez l'application en mode développement :
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### 🌐 Lien vers le portfolio
