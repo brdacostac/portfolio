@@ -1,8 +1,71 @@
-# React + Vite
+### 🌟 Portfolio de Bruno Cunha 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur le dépôt de mon portfolio personnel ! Ce portfolio met en avant mes compétences, mes expériences professionnelles et mes projets.
 
-Currently, two official plugins are available:
+### 🚀 Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **ReactJS** : Pour la création de l'interface utilisateur.
+- **ThreeJS** : Pour les animations 3D.
+- **Tailwind CSS** : Pour le style et la mise en page.
+-  **JavaScript** : Pour la logique et les interactions dynamiques.
+
+### 📂 Sections du portfolio
+
+#### 1. À propos
+
+La section "À propos" donne un aperçu de mon parcours et de mes compétences.
+
+![À propos](./screenshots/about.png)
+
+#### 2. 💼 Expérience Professionnelle
+
+Cette section présente mes expériences professionnelles avec des descriptions détaillées de chaque poste.
+
+![Expérience Professionnelle](./screenshots/experience.png)
+
+#### 3. 🛠️ Projets
+
+La section "Projets" présente les différents projets sur lesquels j'ai travaillé, avec des descriptions et des liens vers les dépôts GitHub.
+
+![Projets](./screenshots/projects.png)
+
+#### 4. 📞 Contact
+
+Cette section permet aux visiteurs de me contacter via un formulaire intégré.
+
+![Contact](./screenshots/contact.png)
+
+### 🔧 Installation et utilisation
+
+1. Clonez le dépôt sur votre machine locale :
+
+```bash
+git clone https://github.com/votre-utilisateur/portfolio.git
+```
+
+2. Installez les dépendances nécessaires :
+
+```bash
+cd portfolio
+npm install
+```
+
+3. Lancez l'application en mode développement :
+
+```bash
+npm start
+```
+
+### 🌐 Lien vers le portfolio
+
+Vous pouvez visiter mon portfolio en ligne en suivant [ce lien]([https://votre-lien-portfolio.com](https://codefirst.iut.uca.fr/containers/brunoda_costa_cunha-portfolio)).
+
+### 👨‍💻 Auteur
+
+Bruno Cunha
+
+### 🙏 Remerciements
+
+Merci d'avoir pris le temps de visiter et d'explorer mon portfolio. N'hésitez pas à me contacter pour toute question ou collaboration !
+
+---
