@@ -21,6 +21,8 @@ import {
   starnative,
   pokeblazor,
   devgarden,
+  harrypotterapi,
+  punchers,
   threejs,
   loubroda,
   nicolasfranco,
@@ -240,6 +242,48 @@ const projects = [
     ],
     image: pokeblazor,
     source_code_link: "https://github.com/brdacostac/Blazor-Pokemon",
+  },
+  {
+    name: "HarryPotter-API",
+    description:
+      "HarryPotter-API est un projet personnel développé en utilisant le framework Spring Boot pour créer une API RESTful permettant aux utilisateurs de récupérer des informations sur les personnages et les maisons de l'univers Harry Potter.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "springBoot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: harrypotterapi,
+    source_code_link: "https://github.com/brdacostac/Spring-Personal-API",
+  },
+  {
+    name: "Punchers",
+    description:
+      "Punchers est un projet universitaire développé en binome utilisant le framework Kinect pour créer un jeu de combat. Les joueurs peuvent s'affronter en utilisant des gestes de la main pour attaquer et se défendre. Le jeu est conçu pour être joué en utilisant le capteur Kinect.",
+    tags: [
+      {
+        name: "csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kinectGesture",
+        color: "green-text-gradient",
+      },
+      {
+        name: "microsft",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: punchers,
+    source_code_link: "https://github.com/brdacostac/Punchers",
   },
 ];
 

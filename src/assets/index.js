@@ -29,12 +29,15 @@ import android from "./tech/android.png";
 import angular from "./tech/angular.png";
 import vuejs from "./tech/vuejs.png";
 
+
 import cnfpt from "./company/cnfpt.png";
 import beys from "./company/beys.png";
 
 import starnative from "./starnative.png";
 import devgarden from "./devgarden.png";
 import pokeblazor from "./pokeblazor.png";
+import harrypotterapi from "./harrypotterapi.jpg";
+import punchers from "./punchers.png";
 
 import loubroda from "./testimonials/loubroda.jpg";
 import nicolasfranco from "./testimonials/nicolasfranco.jpg";
@@ -69,12 +72,14 @@ export {
   starnative,
   devgarden,
   pokeblazor,
+  harrypotterapi,
   java,
   csharp,
   swift,
   android,
   angular,
   vuejs,
+  punchers,
 
   linkedin,
 
