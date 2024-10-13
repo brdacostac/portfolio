@@ -262,7 +262,7 @@ const projects = [
       },
     ],
     image: harrypotterapi,
-    source_code_link: "https://github.com/brdacostac/Spring-Personal-API",
+    source_code_link: "https://github.com/brdacostac/HarryPotter-API",
   },
   {
     name: "Punchers",
