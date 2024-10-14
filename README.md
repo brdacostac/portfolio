@@ -7,7 +7,7 @@ Bienvenue sur le dépôt de mon portfolio personnel ! Ce portfolio met en avant 
 - **ReactJS** : Pour la création de l'interface utilisateur.
 - **ThreeJS** : Pour les animations 3D.
 - **Tailwind CSS** : Pour le style et la mise en page.
--  **JavaScript** : Pour la logique et les interactions dynamiques.
+- **JavaScript** : Pour la logique et les interactions dynamiques.
 
 ### 📂 Sections du portfolio
 
@@ -65,7 +65,7 @@ npm run dev
 
 ### 🌐 Lien vers le portfolio
 
-Vous pouvez visiter mon portfolio en ligne en suivant: https://codefirst.iut.uca.fr/containers/brunoda_costa_cunha-portfolio
+Vous pouvez visiter mon portfolio en ligne en suivant: https://bruno-cunha.com/
 
 ### 👨‍💻 Auteur
 

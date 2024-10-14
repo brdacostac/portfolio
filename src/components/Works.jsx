@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div>
       <Tilt
         options={{
           max: 45,
@@ -70,24 +70,19 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Mon travail</p>
         <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
-      </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
+
           Les projets suivants illustrent mes compétences et mon expérience à travers des exemples concrets de mon travail.
           Certains de ces projets ont été réalisés en collaboration avec d'autres contributeurs, dont vous pouvez trouver les détails sur GitHub.
           Chaque projet est brièvement décrit avec des liens vers les dépôts de code. Ils reflètent ma capacité à résoudre des problèmes complexes,
           à travailler avec différentes technologies et à gérer efficacement des projets.
-        </motion.p>
+
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex gap-5 flex-wrap'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
