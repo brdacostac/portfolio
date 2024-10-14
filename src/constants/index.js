@@ -86,10 +86,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Java",
     icon: java,
   },
@@ -100,10 +96,6 @@ const technologies = [
   {
     name: "Swift",
     icon: swift,
-  },
-  {
-    name: "Android",
-    icon: android,
   },
   {
     name: "MongoDB",
